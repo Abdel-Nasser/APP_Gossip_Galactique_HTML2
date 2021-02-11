@@ -1,0 +1,32 @@
+// Place all the styles related to the Gossips controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.body1 {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.gossip{
+	color:rgb(8, 116, 128);
+	text-align: center;
+	padding-top: 3rem;
+	text-shadow: 1px 1px 2px rgb(3, 6, 102), 0 0 1em blue, 0 0 0.2em blue;
+			  } 
+
+			  
+
+        
